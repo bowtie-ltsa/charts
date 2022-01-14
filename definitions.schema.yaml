@@ -5,7 +5,7 @@ definitions:
   image:
     description: Docker image configuration
     type: object
-    additionalProperties: false
+    additionalProperties: true
     required:
       - repository
       - pullPolicy
